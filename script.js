@@ -18,7 +18,7 @@ function game() {
     function start() {
       const number = +prompt('Введите число');
       count--;
-        if(number === 0){
+        if(number === '0'){
 
           alert('Спасибо за игру!');
           
